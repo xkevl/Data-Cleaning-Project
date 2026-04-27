@@ -16,6 +16,7 @@ This project analyzes global layoff data using SQL to uncover trends across comp
 
 - Data Cleaning.sql
 - Exploratory Data Analysis.sql
+- screenshots.pdf
 
 ---
 
