@@ -1,7 +1,7 @@
 # Data Cleaning Project
 
 ## Overview
-This project analyzes global layoff data using SQL to uncover trends across companies, industries, and time. The workflow includes data cleaning, transformation, and exploratory data analysis (EDA) to generate actionable business insights.
+This project analyzes global layoff data using SQL to uncover trends across companies, industries, and time. The workflow includes data cleaning, transformation, exploratory data analysis (EDA) to generate actionable business insights, and creating an interactive tableau dashboard to visualize layoff trends and company performance.
 
 ---
 
@@ -17,6 +17,10 @@ This project analyzes global layoff data using SQL to uncover trends across comp
 - Data Cleaning.sql
 - Exploratory Data Analysis.sql
 - screenshots.pdf
+
+/tableau
+
+- dashboard_screenshot.png
 
 ---
 
@@ -39,6 +43,14 @@ Key Questions Answered:
 - How did layoffs trend over time?
 - Which companies had the highest layoffs per year?
 - Which companies maximized funding while minimizing layoffs?
+
+## Tableau Dashboard
+
+Key Features: 
+- KPI cards showing total layoffs and total companies
+- Time-series analysis of layoff trends
+- Industry and company breakdowns
+- Scatter plot analyzing funding vs layoffs efficiency
 
 ---
 
@@ -73,6 +85,13 @@ After EDA:
 - In 2020 Uber, Booking.com, Groupon, and Airbnb were part of the top 5 companies with the most layoffs. COVID made it so transportation, travel, and going outside in general were kept to a minimum.
 - In 2023 the technology sector took a massive hit in layoffs with companies like Google, Microsoft, and Amazon being part of the top 5.
 - TikTok India, Grover, and N26 were the top 3 companies that maximized profits while keeping layoffs low.
+
+After dashboard creation:
+- Layoffs peaked during specific time periods, indicating macroeconomic shifts
+- The tech industry accounted for majority of the layoffs
+- Certain companies generated high gross income while maintaining relatively low layoffs
+
+![Dashboard Screenshot](tableau/dashboard_screenshot.png)
 
 ---
 
